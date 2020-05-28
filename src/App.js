@@ -125,7 +125,7 @@ class App extends React.Component {
       </div> 
       ) : (
         <div className="movies">
-          { movies.map(movie => (
+          {movies.map(movie => (
         <Movie 
           key={movie.id}
           id={movie.id} 
